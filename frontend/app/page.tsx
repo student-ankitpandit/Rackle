@@ -429,7 +429,7 @@ export default function Home() {
       </div>
 
       {/* Footer */}
-      <footer className="relative bg-zinc-100 dark:bg-[#050505] border-t border-zinc-200 dark:border-zinc-800/50 pt-16 pb-32 md:pb-40 overflow-hidden z-10 transition-colors">
+      <footer className="relative bg-zinc-100 dark:bg-[#050505] border-t border-zinc-200 dark:border-zinc-800/50 pt-16 pb-16 overflow-hidden z-10 transition-colors">
         <div className="max-w-6xl mx-auto px-6 relative z-20">
           <div className="grid grid-cols-1 md:grid-cols-12 gap-12 mb-16 md:mb-24">
             {/* Logo & Copyright */}
@@ -465,9 +465,9 @@ export default function Home() {
               <div>
                 <h4 className="text-zinc-900 dark:text-zinc-100 font-medium mb-6 text-sm tracking-wide">Socials</h4>
                 <ul className="space-y-4 text-sm text-zinc-600 dark:text-zinc-400">
-                  <li><Link href="https://x.com/racklelabs" target="_blank" className="hover:text-zinc-900 dark:hover:text-zinc-200 transition-colors">Twitter / X</Link></li>
-                  <li><Link href="https://github.com/student-ankitpandit/Rackle" target="_blank" className="hover:text-zinc-900 dark:hover:text-zinc-200 transition-colors">GitHub</Link></li>
-                  <li><Link href="https://www.linkedin.com/company/racklelabs" className="hover:text-zinc-900 dark:hover:text-zinc-200 transition-colors">LinkedIn</Link></li>
+                  <li><Link href="https://x.com/ankitpanditdev" target="_blank" className="hover:text-zinc-900 dark:hover:text-zinc-200 transition-colors">Twitter / X</Link></li>
+                  <li><Link href="https://github.com/student-ankitpandit/rackletrace" target="_blank" className="hover:text-zinc-900 dark:hover:text-zinc-200 transition-colors">GitHub</Link></li>
+                  <li><Link href="https://www.linkedin.com/in/panditankit" target="_blank" className="hover:text-zinc-900 dark:hover:text-zinc-200 transition-colors">LinkedIn</Link></li>
                 </ul>
               </div>
               <div>
@@ -487,13 +487,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
-
-        {/* Massive Watermark Text */}
-        <div className="absolute bottom-[-10%] md:bottom-[-15%] left-0 right-0 flex justify-center overflow-hidden pointer-events-none select-none z-10">
-          <span className="font-bold text-[20vw] md:text-[20vw] leading-none whitespace-nowrap tracking-tighter text-zinc-200 dark:text-[#111] transition-colors">
-            Rackle
-          </span>
         </div>
       </footer>
     </div>

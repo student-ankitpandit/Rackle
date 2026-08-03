@@ -20,8 +20,11 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'Rackletrace',
+  title: 'Rackletrace — Observe, Debug & Control your AI Agents',
   description: 'Rackletrace helps you observe, debug, and control your AI Agents',
+  icons: {
+    icon: '/logo.png',
+  },
 }
 
 export default function RootLayout({
